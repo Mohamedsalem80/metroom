@@ -1,4 +1,4 @@
-# Metroom Backend
+# Metrom Backend
 
 Express + TypeScript + Prisma backend for auth and trip persistence.
 

@@ -1,11 +1,11 @@
-# Metroom
+# Metrom
 
 ## Project Documentation
 
 ## 1) General Project Idea
 
 ### 1.1 Project Overview
-Metroom is a full-stack Cairo Metro journey planner. It helps users:
+Metrom is a full-stack Cairo Metro journey planner. It helps users:
 - Plan routes between stations across lines
 - See fare and estimated travel time
 - Use coordinate helpers to identify nearest stations

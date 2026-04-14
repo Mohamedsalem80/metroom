@@ -58,7 +58,7 @@ export default function AuthSection({ onSignIn, onSignUp }) {
 
         <div className="auth-shell">
           <div className="auth-aside">
-            <h2>{mode === 'signin' ? 'Sign in and continue your trip' : 'Create your Metroom account'}</h2>
+            <h2>{mode === 'signin' ? 'Sign in and continue your trip' : 'Create your Metrom account'}</h2>
             <p>
               {mode === 'signin'
                 ? 'Access your profile and continue planning in seconds.'

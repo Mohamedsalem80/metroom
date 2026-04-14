@@ -12,7 +12,7 @@ app.use(cors({ origin: env.CLIENT_ORIGIN }));
 app.use(express.json());
 
 app.get('/health', (_req, res) => {
-  res.json({ ok: true, service: 'metroom-server' });
+  res.json({ ok: true, service: 'metrom-server' });
 });
 
 app.use('/auth', authRoutes);
@@ -57,5 +57,5 @@ app.use((err: unknown, _req: express.Request, res: express.Response, _next: expr
 });
 
 app.listen(env.PORT, () => {
-  console.log(`Metroom backend listening on http://localhost:${env.PORT}`);
+  console.log(`Metrom backend listening on http://localhost:${env.PORT}`);
 });

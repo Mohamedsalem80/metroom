@@ -14,7 +14,7 @@ import { useMetroBootstrap } from './hooks/useMetroBootstrap';
 import { bootstrapAdminRequest, deleteAccountRequest, getCurrentUser, signInRequest, signOutRequest, signUpRequest, updateAccountRequest } from './utils/authApi';
 import { getMetroConfig } from './utils/metroApi';
 
-const SESSION_STORAGE_KEY = 'metroom-session';
+const SESSION_STORAGE_KEY = 'metrom-session';
 
 function safeReadJson(key, fallback) {
   try {

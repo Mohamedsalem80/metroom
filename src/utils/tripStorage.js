@@ -84,12 +84,12 @@ function downloadFile(fileName, content, mimeType) {
 }
 
 function baseFileName(userEmail) {
-  const safeUser = String(userEmail || 'metroom-user')
+  const safeUser = String(userEmail || 'metrom-user')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
   const stamp = new Date().toISOString().replace(/[:.]/g, '-');
-  return `${safeUser || 'metroom-user'}-trips-${stamp}`;
+  return `${safeUser || 'metrom-user'}-trips-${stamp}`;
 }
 
 export function downloadTripsAsJson(userEmail, trips) {
@@ -97,7 +97,7 @@ export function downloadTripsAsJson(userEmail, trips) {
 
   const payload = {
     version: 1,
-    app: 'Metroom Trip Exports',
+    app: 'Metrom Trip Exports',
     exportedAt: new Date().toISOString(),
     owner: userEmail,
     count: trips.length,
