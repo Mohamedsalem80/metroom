@@ -5,6 +5,7 @@
 ### Reference Documents
 - [UX research and design document](docs/metrom_ux_research_design_with%20cover.pdf)
 - [Project presentation](docs/Metroom_Presentation_final.pptx)
+- [Project Video](docs/Metrom_recording.mp4)
 
 ## 1) General Project Idea
 
